@@ -3,9 +3,6 @@ package inheritance;
 import java.io.Serializable;
 
 import javax.persistence.Column;
-import javax.persistence.DiscriminatorColumn;
-import javax.persistence.DiscriminatorType;
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -29,7 +26,7 @@ import javax.persistence.Table;
 
 
 //Joined Two Tables
-@Table(name = "employee2")
+@Table(name = "roshan")
 @Inheritance(strategy = InheritanceType.JOINED)
 
 public class Employee implements Serializable{
