@@ -1,14 +1,14 @@
 package crudoperation.service;
 
 import crudoperation.dao.StudentDAO;
-import crudoperation.dao.StudentDAOImpl;
+import crudoperation.dao.StudentDAOlmpl;
 import crudoperation.entities.Student;
 
-public class StudentServiceImpl implements StudentService {
+public class StudentServicelmpl implements Studentservice {
 	private StudentDAO dao;
 	
-	public  StudentServiceImpl() {
-		dao = new StudentDAOImpl();
+	public  StudentServicelmpl() {
+		dao = new StudentDAOlmpl();
 	}
 
 	

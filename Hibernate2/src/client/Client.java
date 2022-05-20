@@ -1,14 +1,14 @@
 package client;
 
 import crudoperation.entities.Student;
-import crudoperation.service.StudentService;
-import crudoperation.service.StudentServiceImpl;
+import crudoperation.service.StudentServicelmpl;
+import crudoperation.service.Studentservice;
 
-public class Clint {
+public class Client {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		StudentService ss = new StudentServiceImpl();
+		Studentservice ss = new StudentServicelmpl();
 		Student student = new Student();
 		
 		//Row1

@@ -4,11 +4,11 @@ import javax.persistence.EntityManager;
 
 import crudoperation.entities.Student;
 
-public class StudentDAOImpl implements StudentDAO{
+public class StudentDAOlmpl implements StudentDAO{
 	private EntityManager em;
 	
 	
-	public  StudentDAOImpl() {
+	public  StudentDAOlmpl() {
 		em = JUtil.getEntityManager();
 	}
 

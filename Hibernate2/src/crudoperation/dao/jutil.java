@@ -4,7 +4,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-public class JUtil {
+public class jutil {
 	private static EntityManagerFactory factory;
 	private static EntityManager em;
 	
